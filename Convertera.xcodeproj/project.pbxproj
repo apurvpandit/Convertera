@@ -19,6 +19,10 @@
 		680FFF0A18D3323B0094BFDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680FFEF218D3323B0094BFDE /* UIKit.framework */; };
 		680FFF1218D3323B0094BFDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 680FFF1018D3323B0094BFDE /* InfoPlist.strings */; };
 		680FFF1418D3323B0094BFDE /* ConverteraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 680FFF1318D3323B0094BFDE /* ConverteraTests.m */; };
+		680FFF1E18D332470094BFDE /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680FFF1D18D332470094BFDE /* Storyboard.storyboard */; };
+		680FFF2118D3353C0094BFDE /* LengthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680FFF2018D3353C0094BFDE /* LengthViewController.m */; };
+		68C5CE6F18D35EB100C1C6F0 /* AreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C5CE6E18D35EB100C1C6F0 /* AreaViewController.m */; };
+		68C5CE7218D3680F00C1C6F0 /* CurrencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C5CE7118D3680F00C1C6F0 /* CurrencyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,13 @@
 		680FFF0F18D3323B0094BFDE /* ConverteraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConverteraTests-Info.plist"; sourceTree = "<group>"; };
 		680FFF1118D3323B0094BFDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		680FFF1318D3323B0094BFDE /* ConverteraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConverteraTests.m; sourceTree = "<group>"; };
+		680FFF1D18D332470094BFDE /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		680FFF1F18D3353C0094BFDE /* LengthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LengthViewController.h; sourceTree = "<group>"; };
+		680FFF2018D3353C0094BFDE /* LengthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LengthViewController.m; sourceTree = "<group>"; };
+		68C5CE6D18D35EB100C1C6F0 /* AreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaViewController.h; sourceTree = "<group>"; };
+		68C5CE6E18D35EB100C1C6F0 /* AreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaViewController.m; sourceTree = "<group>"; };
+		68C5CE7018D3680F00C1C6F0 /* CurrencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyViewController.h; sourceTree = "<group>"; };
+		68C5CE7118D3680F00C1C6F0 /* CurrencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +88,13 @@
 		680FFEE218D3323B0094BFDE = {
 			isa = PBXGroup;
 			children = (
+				680FFF1D18D332470094BFDE /* Storyboard.storyboard */,
+				68C5CE7018D3680F00C1C6F0 /* CurrencyViewController.h */,
+				68C5CE7118D3680F00C1C6F0 /* CurrencyViewController.m */,
+				68C5CE6D18D35EB100C1C6F0 /* AreaViewController.h */,
+				68C5CE6E18D35EB100C1C6F0 /* AreaViewController.m */,
+				680FFF1F18D3353C0094BFDE /* LengthViewController.h */,
+				680FFF2018D3353C0094BFDE /* LengthViewController.m */,
 				680FFEF418D3323B0094BFDE /* Convertera */,
 				680FFF0D18D3323B0094BFDE /* ConverteraTests */,
 				680FFEED18D3323B0094BFDE /* Frameworks */,
@@ -221,6 +239,7 @@
 			files = (
 				680FFEF918D3323B0094BFDE /* InfoPlist.strings in Resources */,
 				680FFF0118D3323B0094BFDE /* Images.xcassets in Resources */,
+				680FFF1E18D332470094BFDE /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680FFF2118D3353C0094BFDE /* LengthViewController.m in Sources */,
 				680FFEFF18D3323B0094BFDE /* AppDelegate.m in Sources */,
+				68C5CE7218D3680F00C1C6F0 /* CurrencyViewController.m in Sources */,
 				680FFEFB18D3323B0094BFDE /* main.m in Sources */,
+				68C5CE6F18D35EB100C1C6F0 /* AreaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +463,7 @@
 				680FFF1918D3323B0094BFDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		680FFF1A18D3323B0094BFDE /* Build configuration list for PBXNativeTarget "ConverteraTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +472,7 @@
 				680FFF1C18D3323B0094BFDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
